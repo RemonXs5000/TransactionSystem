@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    <div class="SearchBarSection d-flex gap-2 align-items-center w-50 mx-auto  mt-3">
+        <input id="searchBar" class="search-bar" type="text" placeholder="Search Table by customer Name ">
+        <button id="SearchName" class="btn btn-primary">name</button>
+        <button id="SearchAmount" class="btn btn-warning">amount</button>
+    </div>
+    <div class="content container my-5 mx-auto ">
+        <h1 class="header-title text-center my-5">Customer Transaction Table </h1>
+        <table class="transaction-table  w-100">
+            <thead >
+                <tr>
+                    <th>Transaction ID</th>
+                    <th>Customer</th>
+                    <th>Transaction Date</th>
+                    <th>Amount $ </th>
+                </tr>
+            </thead>
+            <tbody class="table-content">
+                <tr>
+                    <td>1</td>
+                    <td>Magdy Ghaly</td>
+                    <td>12/1/2024</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Ahmad Ali</td>
+                    <td>12/1/2024</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Mona Abdin</td>
+                    <td>12/1/2024</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>May Farouk</td>
+                    <td>12/1/2024</td>
+                    <td>300</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="Graph container my-5 mx-auto">
+       <canvas id="chart">
+
+       </canvas>
+    </div>
+
+
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>

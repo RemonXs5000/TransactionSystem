@@ -1,0 +1,54 @@
+/* start of Searchbar Styles */
+
+.SearchBarSection .search-bar {
+    width: 100%;
+    padding: 10px  15px;
+    border-radius: 30px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+
+/* end of Searchbar Styles  */
+
+/* Begin of transaction Table Styles  */
+
+.content .header-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #009878;
+}
+
+
+.transaction-table {
+    border-radius:  5px 5px 0 0 ;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+.transaction-table thead {
+    background-color: #009878;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.transaction-table th,
+.transaction-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.transaction-table tbody tr {
+  
+    border-bottom: 1px solid #ccc;
+}
+
+.transaction-table tbody tr:nth-of-type(even){
+    background: #f0f0f0;
+}
+
+.transaction-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009878;
+}
